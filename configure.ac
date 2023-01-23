@@ -2,13 +2,18 @@
 # license   : GNU GPL v2; see accompanying LICENSE file
 
 AC_PREREQ(2.60)
-AC_INIT([libodb], [__value__(version)], [odb-users@codesynthesis.com])
+AC_INIT([libodb], [2.5.0-b.23], [odb-users@codesynthesis.com])
 AC_CONFIG_AUX_DIR([config])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([odb/version.hxx])
+AM_SILENT_RULES([yes])
+
+# AC_DEFINE([INTERFACE_VERSION], [2.5], [Interface version])
+INTERFACE_VERSION=2.5
+AC_SUBST([INTERFACE_VERSION])
 
 AM_INIT_AUTOMAKE([-Wall -Werror foreign nostdinc subdir-objects dist-bzip2 dist-zip tar-ustar])
-m4_equote()[m4_ifdef]m4_dquote()([AM_PROG_AR], [AM_PROG_AR]) # Required by automake 1.12.
+AM_PROG_AR
 
 LT_INIT([win32-dll])
 
@@ -63,5 +68,9 @@ DISABLE_RPATH
 # Output.
 #
 AC_CONFIG_HEADERS([odb/config.h odb/details/config.h])
-AC_CONFIG_FILES([__path__(config_files)])
+AC_CONFIG_FILES([
+    libodb.pc
+    Makefile
+    odb/Makefile
+])
 AC_OUTPUT

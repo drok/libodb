@@ -31,6 +31,12 @@
 # Generated build system files.
 #
 *-dynamic.make
+Makefile
+odb/config.h
+odb/config.h.in
+odb/details/config.h
+odb/details/stamp-h2
+/config
 
 # Generated .gitignore files.
 #

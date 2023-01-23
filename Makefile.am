@@ -1,9 +1,12 @@
 # file      : Makefile.am
 # license   : GNU GPL v2; see accompanying LICENSE file
 
-SUBDIRS = __path__(dirs)
-dist_doc_DATA = __file__(docs)
-EXTRA_DIST = __file__(extra_dist)
+SUBDIRS = odb
+dist_doc_DATA = GPLv2 LICENSE README NEWS
+EXTRA_DIST = \
+    INSTALL libodb-vc8.sln libodb-vc9.sln libodb-vc10.sln \
+    libodb-vc11.sln libodb-vc12.sln \
+    bootstrap
 ACLOCAL_AMFLAGS = -I m4
 
 pkgconfigdir = @pkgconfigdir@
