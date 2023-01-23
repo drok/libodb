@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_SHARED_PTR_FWD_HXX
 #define ODB_DETAILS_SHARED_PTR_FWD_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/shared-ptr/counter-type.hxx>
+#include "shared-ptr/counter-type.hxx"
 
 namespace odb
 {
@@ -19,6 +19,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_SHARED_PTR_FWD_HXX

@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_EXPORT_HXX
 #define ODB_DETAILS_EXPORT_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/config.hxx>
+#include "config.hxx"
 
 // Normally we don't export class templates (but do complete specializations),
 // inline functions, and classes with only inline member functions. Exporting
@@ -73,6 +73,6 @@
 
 #endif // LIBODB_BUILD2
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_EXPORT_HXX

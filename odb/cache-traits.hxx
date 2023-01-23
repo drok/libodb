@@ -4,13 +4,13 @@
 #ifndef ODB_CACHE_TRAITS_HXX
 #define ODB_CACHE_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/traits.hxx>
-#include <odb/forward.hxx>
-#include <odb/session.hxx>
-#include <odb/pointer-traits.hxx>
-#include <odb/no-op-cache-traits.hxx>
+#include "traits.hxx"
+#include "forward.hxx"
+#include "session.hxx"
+#include "pointer-traits.hxx"
+#include "no-op-cache-traits.hxx"
 
 namespace odb
 {
@@ -177,6 +177,6 @@ namespace odb
       T, S, pointer_traits<typename object_traits<T>::pointer_type>::kind> {};
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_CACHE_TRAITS_HXX

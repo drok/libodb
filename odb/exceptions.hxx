@@ -4,19 +4,19 @@
 #ifndef ODB_EXCEPTIONS_HXX
 #define ODB_EXCEPTIONS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <set>
 #include <string>
 #include <cstddef>  // std::size_t
 #include <typeinfo>
 
-#include <odb/forward.hxx>    // schema_version, odb::core
-#include <odb/exception.hxx>
+#include "forward.hxx"    // schema_version, odb::core
+#include "exception.hxx"
 
-#include <odb/details/config.hxx> // ODB_NOTHROW_NOEXCEPT
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr.hxx>
+#include "details/config.hxx" // ODB_NOTHROW_NOEXCEPT
+#include "details/export.hxx"
+#include "details/shared-ptr.hxx"
 
 namespace odb
 {
@@ -518,6 +518,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_EXCEPTIONS_HXX

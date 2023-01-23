@@ -4,14 +4,14 @@
 #ifndef ODB_POINTER_TRAITS_HXX
 #define ODB_POINTER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <new>     // operators new/delete
 #include <memory>  // std::auto_ptr, std::unique_ptr, std::shared_ptr/weak_ptr
 #include <cstddef> // std::size_t
 
-#include <odb/details/config.hxx>            // ODB_CXX11
-#include <odb/details/meta/remove-const.hxx>
+#include "details/config.hxx"            // ODB_CXX11
+#include "details/meta/remove-const.hxx"
 
 namespace odb
 {
@@ -400,6 +400,6 @@ namespace odb
 
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_POINTER_TRAITS_HXX

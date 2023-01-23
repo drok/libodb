@@ -4,15 +4,15 @@
 #ifndef ODB_OBJECT_RESULT_HXX
 #define ODB_OBJECT_RESULT_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef>  // std::ptrdiff_t
 #include <iterator> // iterator categories
 
-#include <odb/forward.hxx>
-#include <odb/traits.hxx>
-#include <odb/result.hxx>
-#include <odb/pointer-traits.hxx>
+#include "forward.hxx"
+#include "traits.hxx"
+#include "result.hxx"
+#include "pointer-traits.hxx"
 
 namespace odb
 {
@@ -159,6 +159,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_OBJECT_RESULT_HXX

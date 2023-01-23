@@ -1,7 +1,7 @@
 // file      : odb/details/win32/once.ixx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/win32/lock.hxx>
+#include "lock.hxx"
 
 namespace odb
 {

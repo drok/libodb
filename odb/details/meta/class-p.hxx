@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_META_CLASS_HXX
 #define ODB_DETAILS_META_CLASS_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
-#include <odb/details/meta/answer.hxx>
+#include "answer.hxx"
 
 namespace odb
 {
@@ -29,6 +29,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_META_CLASS_HXX

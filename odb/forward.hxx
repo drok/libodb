@@ -4,12 +4,12 @@
 #ifndef ODB_FORWARD_HXX
 #define ODB_FORWARD_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef> // std::size_t
 
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr-fwd.hxx>
+#include "details/export.hxx"
+#include "details/shared-ptr-fwd.hxx"
 
 namespace odb
 {
@@ -173,6 +173,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_FORWARD_HXX

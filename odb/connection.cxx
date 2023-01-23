@@ -1,11 +1,11 @@
 // file      : odb/connection.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/database.hxx>
-#include <odb/connection.hxx>
-#include <odb/result.hxx>
-#include <odb/prepared-query.hxx>
-#include <odb/exceptions.hxx> // prepared_*
+#include "database.hxx"
+#include "connection.hxx"
+#include "result.hxx"
+#include "prepared-query.hxx"
+#include "exceptions.hxx" // prepared_*
 
 using namespace std;
 

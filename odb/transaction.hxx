@@ -4,15 +4,15 @@
 #ifndef ODB_TRANSACTION_HXX
 #define ODB_TRANSACTION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <vector>
 #include <cstddef> // std::size_t
 
-#include <odb/forward.hxx>
+#include "forward.hxx"
 
-#include <odb/details/export.hxx>
-#include <odb/details/unique-ptr.hxx>
+#include "details/export.hxx"
+#include "details/unique-ptr.hxx"
 
 namespace odb
 {
@@ -271,8 +271,8 @@ namespace odb
   };
 }
 
-#include <odb/transaction.ixx>
+#include "transaction.ixx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_TRANSACTION_HXX

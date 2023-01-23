@@ -3,13 +3,13 @@
 
 #include <cassert>
 
-#include <odb/statement-processing-common.hxx>
+#include "statement-processing-common.hxx"
 
 #ifdef LIBODB_TRACE_STATEMENT_PROCESSING
 #  include <iostream>
 #endif
 
-#include <odb/statement.hxx>
+#include "statement.hxx"
 
 using namespace std;
 

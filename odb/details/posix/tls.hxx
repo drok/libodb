@@ -4,7 +4,7 @@
 #ifndef ODB_DETAILS_POSIX_TLS_HXX
 #define ODB_DETAILS_POSIX_TLS_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
 #include <pthread.h>
 
@@ -98,9 +98,9 @@ namespace odb
   }
 }
 
-#include <odb/details/posix/tls.ixx>
-#include <odb/details/posix/tls.txx>
+#include "tls.ixx"
+#include "tls.txx"
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_POSIX_TLS_HXX

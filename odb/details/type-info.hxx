@@ -4,7 +4,7 @@
 #ifndef ODB_DETAILS_TYPE_INFO_HXX
 #define ODB_DETAILS_TYPE_INFO_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
 #include <typeinfo>
 
@@ -31,6 +31,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_TYPE_INFO_HXX

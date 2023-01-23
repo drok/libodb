@@ -4,15 +4,15 @@
 #ifndef ODB_STATEMENT_HXX
 #define ODB_STATEMENT_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <string>
 #include <cstddef> // std::size_t
 
-#include <odb/forward.hxx> // connection
+#include "forward.hxx" // connection
 
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr.hxx>
+#include "details/export.hxx"
+#include "details/shared-ptr.hxx"
 
 namespace odb
 {
@@ -103,6 +103,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_STATEMENT_HXX

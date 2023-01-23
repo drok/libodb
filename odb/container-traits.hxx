@@ -4,10 +4,10 @@
 #ifndef ODB_CONTAINER_TRAITS_HXX
 #define ODB_CONTAINER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/forward.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "forward.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 namespace odb
 {
@@ -201,19 +201,19 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
-#include <odb/std-map-traits.hxx>
-#include <odb/std-set-traits.hxx>
-#include <odb/std-list-traits.hxx>
-#include <odb/std-vector-traits.hxx>
-#include <odb/std-deque-traits.hxx>
+#include "std-map-traits.hxx"
+#include "std-set-traits.hxx"
+#include "std-list-traits.hxx"
+#include "std-vector-traits.hxx"
+#include "std-deque-traits.hxx"
 
 #ifdef ODB_CXX11
-#  include <odb/std-array-traits.hxx>
-#  include <odb/std-forward-list-traits.hxx>
-#  include <odb/std-unordered-map-traits.hxx>
-#  include <odb/std-unordered-set-traits.hxx>
+#  include "std-array-traits.hxx"
+#  include "std-forward-list-traits.hxx"
+#  include "std-unordered-map-traits.hxx"
+#  include "std-unordered-set-traits.hxx"
 #endif
 
 #endif // ODB_CONTAINER_TRAITS_HXX

@@ -4,11 +4,11 @@
 #ifndef ODB_NO_OP_CACHE_TRAITS_HXX
 #define ODB_NO_OP_CACHE_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/traits.hxx>
-#include <odb/forward.hxx>
-#include <odb/pointer-traits.hxx>
+#include "traits.hxx"
+#include "forward.hxx"
+#include "pointer-traits.hxx"
 
 namespace odb
 {
@@ -231,6 +231,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_NO_OP_CACHE_TRAITS_HXX

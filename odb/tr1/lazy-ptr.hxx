@@ -4,7 +4,7 @@
 #ifndef ODB_TR1_LAZY_PTR_HXX
 #define ODB_TR1_LAZY_PTR_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 //
 // This header assumes that the necessary TR1 header has already
@@ -13,10 +13,10 @@
 
 #include <memory> // std::auto_ptr
 
-#include <odb/forward.hxx> // odb::database
-#include <odb/traits.hxx>
-#include <odb/lazy-ptr-impl.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "forward.hxx" // odb::database
+#include "traits.hxx"
+#include "lazy-ptr-impl.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 namespace odb
 {
@@ -257,11 +257,11 @@ namespace odb
   }
 }
 
-#include <odb/tr1/lazy-ptr.ixx>
-#include <odb/tr1/lazy-ptr.txx>
+#include "tr1/lazy-ptr.ixx"
+#include "tr1/lazy-ptr.txx"
 
-#include <odb/tr1/lazy-pointer-traits.hxx>
+#include "tr1/lazy-pointer-traits.hxx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_TR1_LAZY_PTR_HXX

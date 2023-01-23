@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_TLS_HXX
 #define ODB_DETAILS_TLS_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/config.hxx>
+#include "config.hxx"
 
 #ifdef ODB_THREADS_NONE
 
@@ -98,7 +98,7 @@ namespace odb
 
 #elif defined(ODB_THREADS_POSIX)
 
-#  include <odb/details/posix/tls.hxx>
+#  include "posix/tls.hxx"
 
 #  ifdef ODB_THREADS_TLS_KEYWORD
 #    define ODB_TLS_POINTER(type) __thread type*
@@ -130,7 +130,7 @@ namespace odb
 
 #elif defined(ODB_THREADS_WIN32)
 
-#  include <odb/details/win32/tls.hxx>
+#  include "win32/tls.hxx"
 
 #  ifdef ODB_THREADS_TLS_DECLSPEC
 #    define ODB_TLS_POINTER(type) __declspec(thread) type*
@@ -163,6 +163,6 @@ namespace odb
 # error unknown threading model
 #endif
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_TLS_HXX

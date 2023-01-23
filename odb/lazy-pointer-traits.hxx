@@ -4,11 +4,11 @@
 #ifndef ODB_LAZY_POINTER_TRAITS_HXX
 #define ODB_LAZY_POINTER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/pointer-traits.hxx>
-#include <odb/lazy-ptr.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "pointer-traits.hxx"
+#include "lazy-ptr.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 namespace odb
 {
@@ -136,6 +136,6 @@ namespace odb
 #endif // ODB_CXX11
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_LAZY_POINTER_TRAITS_HXX

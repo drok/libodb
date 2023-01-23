@@ -1,9 +1,9 @@
 // file      : odb/details/posix/thread.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/unique-ptr.hxx>
-#include <odb/details/posix/thread.hxx>
-#include <odb/details/posix/exceptions.hxx>
+#include "../unique-ptr.hxx"
+#include "thread.hxx"
+#include "exceptions.hxx"
 
 typedef void* (*thread_func) (void*);
 

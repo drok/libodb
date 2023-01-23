@@ -1,7 +1,7 @@
 // file      : odb/polymorphic-map.txx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/exceptions.hxx> // no_type_info
+#include "exceptions.hxx" // no_type_info
 
 namespace odb
 {

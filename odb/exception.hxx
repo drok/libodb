@@ -4,15 +4,15 @@
 #ifndef ODB_EXCEPTION_HXX
 #define ODB_EXCEPTION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <exception>
 
-#include <odb/forward.hxx>        // odb::core
+#include "forward.hxx"        // odb::core
 
-#include <odb/details/config.hxx> // ODB_NOTHROW_NOEXCEPT
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr/base.hxx>
+#include "details/config.hxx" // ODB_NOTHROW_NOEXCEPT
+#include "details/export.hxx"
+#include "details/shared-ptr/base.hxx"
 
 namespace odb
 {
@@ -31,6 +31,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_EXCEPTION_HXX

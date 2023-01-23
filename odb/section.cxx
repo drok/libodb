@@ -1,7 +1,7 @@
 // file      : odb/section.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/section.hxx>
+#include "section.hxx"
 
 namespace odb
 {

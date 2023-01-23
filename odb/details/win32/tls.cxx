@@ -1,16 +1,16 @@
 // file      : odb/details/win32/tls.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/win32/windows.hxx>
+#include "windows.hxx"
 #include <winerror.h> // ERROR_INVALID_INDEX
 
 #include <new>
 #include <cstddef> // std::size_t
 
-#include <odb/details/win32/lock.hxx>
-#include <odb/details/win32/tls.hxx>
-#include <odb/details/win32/tls-init.hxx>
-#include <odb/details/win32/exceptions.hxx>
+#include "lock.hxx"
+#include "tls.hxx"
+#include "tls-init.hxx"
+#include "exceptions.hxx"
 
 #ifdef _MSC_VER
 #  pragma warning (disable:4200) // zero-sized array in struct

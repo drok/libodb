@@ -4,14 +4,14 @@
 #ifndef ODB_POLYMORPHIC_INFO_HXX
 #define ODB_POLYMORPHIC_INFO_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef>  // std::size_t
 #include <typeinfo>
 
-#include <odb/forward.hxx> // database, connection
-#include <odb/schema-version.hxx>
-#include <odb/traits.hxx>
+#include "forward.hxx" // database, connection
+#include "schema-version.hxx"
+#include "traits.hxx"
 
 namespace odb
 {
@@ -183,6 +183,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_POLYMORPHIC_INFO_HXX

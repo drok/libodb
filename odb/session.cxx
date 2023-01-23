@@ -1,10 +1,10 @@
 // file      : odb/session.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/exceptions.hxx>
-#include <odb/session.hxx>
+#include "exceptions.hxx"
+#include "session.hxx"
 
-#include <odb/details/tls.hxx>
+#include "details/tls.hxx"
 
 namespace odb
 {

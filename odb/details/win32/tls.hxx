@@ -4,12 +4,12 @@
 #ifndef ODB_DETAILS_WIN32_TLS_HXX
 #define ODB_DETAILS_WIN32_TLS_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
 #include <cstddef> // std::size_t
 
-#include <odb/details/export.hxx>
-#include <odb/details/win32/once.hxx>
+#include "../export.hxx"
+#include "once.hxx"
 
 namespace odb
 {
@@ -112,9 +112,9 @@ namespace odb
   }
 }
 
-#include <odb/details/win32/tls.ixx>
-#include <odb/details/win32/tls.txx>
+#include "tls.ixx"
+#include "tls.txx"
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_WIN32_TLS_HXX

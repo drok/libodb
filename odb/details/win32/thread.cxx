@@ -1,12 +1,12 @@
 // file      : odb/details/win32/thread.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/win32/windows.hxx>
+#include "windows.hxx"
 #include <process.h> // _beginthreadex, _endthreadex
 
-#include <odb/details/unique-ptr.hxx>
-#include <odb/details/win32/thread.hxx>
-#include <odb/details/win32/exceptions.hxx>
+#include "../unique-ptr.hxx"
+#include "thread.hxx"
+#include "exceptions.hxx"
 
 unsigned int __stdcall
 odb_thread_thunk (void* arg)

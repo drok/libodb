@@ -4,8 +4,8 @@
 #ifndef ODB_VECTOR_HXX
 #define ODB_VECTOR_HXX
 
-#include <odb/pre.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "pre.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 #include <vector>
 #include <iterator>
@@ -18,7 +18,7 @@
 #  endif
 #endif
 
-#include <odb/vector-impl.hxx>
+#include "vector-impl.hxx"
 
 // Because both std::vector and odb::vector are called 'vector' (who
 // cares about namespace qualifications, right?), Sun CC complains
@@ -620,10 +620,10 @@ namespace std
                    odb::vector<T,A LIBODB_VECTOR_ARG_USE>& y) {x.swap (y);}
 }
 
-#include <odb/vector.ixx>
+#include "vector.ixx"
 
-#include <odb/vector-traits.hxx>
+#include "vector-traits.hxx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_VECTOR_HXX

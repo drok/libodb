@@ -3,8 +3,8 @@
 
 #include <iostream>
 
-#include <odb/tracer.hxx>
-#include <odb/statement.hxx>
+#include "tracer.hxx"
+#include "statement.hxx"
 
 using namespace std;
 

@@ -4,11 +4,11 @@
 #ifndef ODB_DETAILS_SHARED_PTR_HXX
 #define ODB_DETAILS_SHARED_PTR_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/shared-ptr-fwd.hxx>
-#include <odb/details/shared-ptr/base.hxx>
-#include <odb/details/shared-ptr/exception.hxx>
+#include "shared-ptr-fwd.hxx"
+#include "shared-ptr/base.hxx"
+#include "shared-ptr/exception.hxx"
 
 namespace odb
 {
@@ -162,6 +162,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_SHARED_PTR_HXX

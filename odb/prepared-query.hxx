@@ -4,15 +4,15 @@
 #ifndef ODB_PREPARED_QUERY_HXX
 #define ODB_PREPARED_QUERY_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/forward.hxx> // odb::core
-#include <odb/traits.hxx>
-#include <odb/result.hxx>
-#include <odb/statement.hxx>
+#include "forward.hxx" // odb::core
+#include "traits.hxx"
+#include "result.hxx"
+#include "statement.hxx"
 
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr.hxx>
+#include "details/export.hxx"
+#include "details/shared-ptr.hxx"
 
 namespace odb
 {
@@ -196,6 +196,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_PREPARED_QUERY_HXX

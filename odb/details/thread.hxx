@@ -4,10 +4,10 @@
 #ifndef ODB_DETAILS_THREAD_HXX
 #define ODB_DETAILS_THREAD_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/config.hxx>
-#include <odb/details/export.hxx>
+#include "config.hxx"
+#include "export.hxx"
 
 #ifdef ODB_THREADS_NONE
 # error no thread support available
@@ -53,13 +53,13 @@ namespace odb
 }
 
 #elif defined(ODB_THREADS_POSIX)
-#include <odb/details/posix/thread.hxx>
+#include "posix/thread.hxx"
 #elif defined(ODB_THREADS_WIN32)
-#include <odb/details/win32/thread.hxx>
+#include "win32/thread.hxx"
 #else
 # error unknown threading model
 #endif
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_THREAD_HXX

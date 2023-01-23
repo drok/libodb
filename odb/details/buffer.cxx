@@ -3,7 +3,7 @@
 
 #include <cstring> // std::memcpy
 
-#include <odb/details/buffer.hxx>
+#include "buffer.hxx"
 
 using namespace std;
 

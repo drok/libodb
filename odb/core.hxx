@@ -4,7 +4,7 @@
 #ifndef ODB_CORE_HXX
 #define ODB_CORE_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #ifdef ODB_COMPILER
 #  define PRAGMA_DB_IMPL(x) _Pragma (#x)
@@ -13,8 +13,8 @@
 #  define PRAGMA_DB(x)
 #endif
 
-#include <odb/forward.hxx>
+#include "forward.hxx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_CORE_HXX

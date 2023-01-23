@@ -1,9 +1,9 @@
 // file      : odb/database.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/database.hxx>
+#include "database.hxx"
 
-#include <odb/details/lock.hxx>
+#include "details/lock.hxx"
 
 using namespace std;
 

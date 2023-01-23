@@ -4,12 +4,12 @@
 #ifndef ODB_BUFFER_DETAILS_HXX
 #define ODB_BUFFER_DETAILS_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
 #include <new>
 #include <cstddef> // std::size_t
 
-#include <odb/details/export.hxx>
+#include "export.hxx"
 
 namespace odb
 {
@@ -87,6 +87,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_BUFFER_DETAILS_HXX

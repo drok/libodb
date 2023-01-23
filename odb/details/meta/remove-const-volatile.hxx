@@ -4,10 +4,10 @@
 #ifndef ODB_DETAILS_META_REMOVE_CONST_VOLATILE_HXX
 #define ODB_DETAILS_META_REMOVE_CONST_VOLATILE_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
-#include <odb/details/meta/remove-const.hxx>
-#include <odb/details/meta/remove-volatile.hxx>
+#include "remove-const.hxx"
+#include "remove-volatile.hxx"
 
 namespace odb
 {
@@ -26,6 +26,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_META_REMOVE_CONST_VOLATILE_HXX

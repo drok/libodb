@@ -4,7 +4,7 @@
 #ifndef ODB_DETAILS_C_STRING_HXX
 #define ODB_DETAILS_C_STRING_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
 #include <cstring>
 
@@ -23,6 +23,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_C_STRING_HXX

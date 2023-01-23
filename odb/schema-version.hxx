@@ -4,9 +4,9 @@
 #ifndef ODB_SCHEMA_VERSION_HXX
 #define ODB_SCHEMA_VERSION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/forward.hxx> // schema_version
+#include "forward.hxx" // schema_version
 
 namespace odb
 {
@@ -66,6 +66,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_SCHEMA_VERSION_HXX

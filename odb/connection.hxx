@@ -4,7 +4,7 @@
 #ifndef ODB_CONNECTION_HXX
 #define ODB_CONNECTION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <map>
 #include <string>
@@ -12,15 +12,15 @@
 #include <cstddef>  // std::size_t
 #include <typeinfo>
 
-#include <odb/forward.hxx>
-#include <odb/traits.hxx>
-#include <odb/query.hxx>
-#include <odb/prepared-query.hxx>
+#include "forward.hxx"
+#include "traits.hxx"
+#include "query.hxx"
+#include "prepared-query.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
-#include <odb/details/export.hxx>
-#include <odb/details/c-string.hxx>
-#include <odb/details/shared-ptr.hxx>
+#include "details/config.hxx" // ODB_CXX11
+#include "details/export.hxx"
+#include "details/c-string.hxx"
+#include "details/shared-ptr.hxx"
 
 namespace odb
 {
@@ -220,9 +220,9 @@ namespace odb
   };
 }
 
-#include <odb/connection.ixx>
-#include <odb/connection.txx>
+#include "connection.ixx"
+#include "connection.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_CONNECTION_HXX

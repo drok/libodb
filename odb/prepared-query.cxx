@@ -1,9 +1,9 @@
 // file      : odb/prepared-query.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/connection.hxx>
-#include <odb/transaction.hxx>
-#include <odb/prepared-query.hxx>
+#include "connection.hxx"
+#include "transaction.hxx"
+#include "prepared-query.hxx"
 
 namespace odb
 {

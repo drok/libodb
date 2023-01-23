@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_MUTEX_HXX
 #define ODB_DETAILS_MUTEX_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/config.hxx>
+#include "config.hxx"
 
 #ifdef ODB_THREADS_NONE
 
@@ -41,13 +41,13 @@ namespace odb
   }
 }
 #elif defined(ODB_THREADS_POSIX)
-#include <odb/details/posix/mutex.hxx>
+#include "posix/mutex.hxx"
 #elif defined(ODB_THREADS_WIN32)
-#include <odb/details/win32/mutex.hxx>
+#include "win32/mutex.hxx"
 #else
 # error unknown threading model
 #endif
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_MUTEX_HXX

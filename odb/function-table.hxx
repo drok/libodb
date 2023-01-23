@@ -4,9 +4,9 @@
 #ifndef ODB_FUNCTION_TABLE_HXX
 #define ODB_FUNCTION_TABLE_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/forward.hxx>
+#include "forward.hxx"
 
 namespace odb
 {
@@ -45,6 +45,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_FUNCTION_TABLE_HXX

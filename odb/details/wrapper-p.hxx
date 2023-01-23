@@ -4,11 +4,11 @@
 #ifndef ODB_DETAILS_WRAPPER_P_HXX
 #define ODB_DETAILS_WRAPPER_P_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/wrapper-traits.hxx>
+#include "../wrapper-traits.hxx"
 
-#include <odb/details/meta/answer.hxx>
+#include "meta/answer.hxx"
 
 namespace odb
 {
@@ -33,6 +33,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_WRAPPER_P_HXX

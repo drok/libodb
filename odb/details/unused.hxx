@@ -4,7 +4,7 @@
 #ifndef ODB_UNUSED_DETAILS_HXX
 #define ODB_UNUSED_DETAILS_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
 // VC++ and xlC don't like the (void)x expression if x is a reference
 // to an incomplete type. On the other hand, GCC warns that (void*)&x
@@ -16,6 +16,6 @@
 #  define ODB_POTENTIALLY_UNUSED(x) (void)x
 #endif
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_UNUSED_DETAILS_HXX

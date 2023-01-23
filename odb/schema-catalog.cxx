@@ -5,9 +5,9 @@
 #include <vector>
 #include <cassert>
 
-#include <odb/exceptions.hxx>
-#include <odb/schema-catalog.hxx>
-#include <odb/schema-catalog-impl.hxx>
+#include "exceptions.hxx"
+#include "schema-catalog.hxx"
+#include "schema-catalog-impl.hxx"
 
 using namespace std;
 

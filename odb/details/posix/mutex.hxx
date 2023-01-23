@@ -4,11 +4,11 @@
 #ifndef ODB_DETAILS_POSIX_MUTEX_HXX
 #define ODB_DETAILS_POSIX_MUTEX_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
 #include <pthread.h>
 
-#include <odb/details/export.hxx>
+#include "../export.hxx"
 
 namespace odb
 {
@@ -37,8 +37,8 @@ namespace odb
   }
 }
 
-#include <odb/details/posix/mutex.ixx>
+#include "mutex.ixx"
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_POSIX_MUTEX_HXX

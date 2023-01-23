@@ -1,10 +1,10 @@
 // file      : odb/database.txx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/section.hxx>
-#include <odb/exceptions.hxx>
-#include <odb/no-op-cache-traits.hxx>
-#include <odb/pointer-traits.hxx>
+#include "section.hxx"
+#include "exceptions.hxx"
+#include "no-op-cache-traits.hxx"
+#include "pointer-traits.hxx"
 
 namespace odb
 {

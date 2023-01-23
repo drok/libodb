@@ -4,7 +4,7 @@
 #ifndef ODB_POLYMORPHIC_MAP_HXX
 #define ODB_POLYMORPHIC_MAP_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <map>
 #include <utility>  // std::move
@@ -12,12 +12,12 @@
 #include <cassert>
 #include <typeinfo>
 
-#include <odb/callback.hxx>
+#include "callback.hxx"
 
-#include <odb/details/config.hxx>    // ODB_CXX11
-#include <odb/details/type-info.hxx>
+#include "details/config.hxx"    // ODB_CXX11
+#include "details/type-info.hxx"
 
-#include <odb/polymorphic-info.hxx>
+#include "polymorphic-info.hxx"
 
 namespace odb
 {
@@ -268,9 +268,9 @@ namespace odb
   }
 }
 
-#include <odb/polymorphic-map.ixx>
-#include <odb/polymorphic-map.txx>
+#include "polymorphic-map.ixx"
+#include "polymorphic-map.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_POLYMORPHIC_MAP_HXX

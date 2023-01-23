@@ -4,12 +4,12 @@
 #ifndef ODB_VECTOR_TRAITS_HXX
 #define ODB_VECTOR_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/vector.hxx>
-#include <odb/vector-impl.hxx>
-#include <odb/container-traits.hxx>
-#include <odb/transaction.hxx>
+#include "vector.hxx"
+#include "vector-impl.hxx"
+#include "container-traits.hxx"
+#include "transaction.hxx"
 
 namespace odb
 {
@@ -99,8 +99,8 @@ namespace odb
   };
 }
 
-#include <odb/vector-traits.txx>
+#include "vector-traits.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_VECTOR_TRAITS_HXX

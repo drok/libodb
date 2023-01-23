@@ -1,9 +1,9 @@
 // file      : odb/details/win32/once.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/win32/windows.hxx>
-#include <odb/details/win32/once.hxx>
-#include <odb/details/win32/once-init.hxx>
+#include "windows.hxx"
+#include "once.hxx"
+#include "once-init.hxx"
 
 namespace odb
 {

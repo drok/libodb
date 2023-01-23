@@ -4,14 +4,14 @@
 #ifndef ODB_DETAILS_WIN32_CONDITION_HXX
 #define ODB_DETAILS_WIN32_CONDITION_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
-#include <odb/details/win32/windows.hxx>
+#include "windows.hxx"
 
 #include <cstddef> // std::size_t
 
-#include <odb/details/export.hxx>
-#include <odb/details/win32/mutex.hxx>
+#include "../export.hxx"
+#include "mutex.hxx"
 
 namespace odb
 {
@@ -45,8 +45,8 @@ namespace odb
   }
 }
 
-#include <odb/details/win32/condition.ixx>
+#include "condition.ixx"
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_WIN32_CONDITION_HXX

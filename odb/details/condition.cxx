@@ -1,7 +1,7 @@
 // file      : odb/details/condition.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/condition.hxx>
+#include "condition.hxx"
 
 namespace odb
 {

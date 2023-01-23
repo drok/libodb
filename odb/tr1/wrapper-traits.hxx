@@ -4,9 +4,9 @@
 #ifndef ODB_TR1_WRAPPER_TRAITS_HXX
 #define ODB_TR1_WRAPPER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "details/config.hxx" // ODB_CXX11
 
 // In VC++ std::shared_ptr and std::tr1::shared_ptr is the same class
 // template. One is just a using-declaration for the other.
@@ -18,7 +18,7 @@
 // been included.
 //
 
-#include <odb/wrapper-traits.hxx>
+#include "wrapper-traits.hxx"
 
 namespace odb
 {
@@ -71,6 +71,6 @@ namespace odb
 
 #endif // !(ODB_CXX11 && _MSC_VER)
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_TR1_WRAPPER_TRAITS_HXX

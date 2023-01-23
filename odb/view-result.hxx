@@ -4,18 +4,18 @@
 #ifndef ODB_VIEW_RESULT_HXX
 #define ODB_VIEW_RESULT_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef>  // std::ptrdiff_t, std::size_t
 #include <iterator> // iterator categories
 #include <utility>  // std::move
 
-#include <odb/forward.hxx>
-#include <odb/traits.hxx>
-#include <odb/result.hxx>
-#include <odb/pointer-traits.hxx>
+#include "forward.hxx"
+#include "traits.hxx"
+#include "result.hxx"
+#include "pointer-traits.hxx"
 
-#include <odb/details/config.hxx>     // ODB_CXX11
+#include "details/config.hxx"     // ODB_CXX11
 
 namespace odb
 {
@@ -224,8 +224,8 @@ namespace odb
   };
 }
 
-#include <odb/view-result.txx>
+#include "view-result.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_VIEW_RESULT_HXX

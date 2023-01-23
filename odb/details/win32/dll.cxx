@@ -8,8 +8,8 @@
 #if (defined(_MSC_VER) && defined(LIBODB_DYNAMIC_LIB)) || \
     (!defined(_MSC_VER) && defined(DLL_EXPORT))
 
-#include <odb/details/win32/windows.hxx>
-#include <odb/details/win32/init.hxx>
+#include "windows.hxx"
+#include "init.hxx"
 
 using namespace odb::details;
 

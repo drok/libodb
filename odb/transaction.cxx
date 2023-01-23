@@ -1,10 +1,10 @@
 // file      : odb/transaction.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/transaction.hxx>
-#include <odb/exceptions.hxx>
+#include "transaction.hxx"
+#include "exceptions.hxx"
 
-#include <odb/details/tls.hxx>
+#include "details/tls.hxx"
 
 using namespace std;
 

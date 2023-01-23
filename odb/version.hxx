@@ -2,13 +2,13 @@
 // license   : GNU GPL v2; see accompanying LICENSE file
 
 #ifdef LIBODB_BUILD2
-#  include <odb/version-build2.hxx>
+#  include "version-build2.hxx"
 #else
 
 #ifndef ODB_VERSION_HXX
 #define ODB_VERSION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 // Version format is AABBCCDD where
 //
@@ -37,7 +37,7 @@
 #define LIBODB_VERSION     2049973
 #define LIBODB_VERSION_STR "2.5.0-b.23"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_VERSION_HXX
 #endif // LIBODB_BUILD2

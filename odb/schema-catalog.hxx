@@ -4,9 +4,9 @@
 #ifndef ODB_SCHEMA_CATALOG_HXX
 #define ODB_SCHEMA_CATALOG_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "details/config.hxx" // ODB_CXX11
 
 #include <string>
 #include <cstddef> // std::size_t
@@ -17,12 +17,12 @@
 #  include <type_traits> // std::enable_if, std::is_convertible
 #endif
 
-#include <odb/forward.hxx> // schema_version, odb::core
-#include <odb/database.hxx>
+#include "forward.hxx" // schema_version, odb::core
+#include "database.hxx"
 
-#include <odb/details/export.hxx>
-#include <odb/details/unused.hxx>
-#include <odb/details/meta/static-assert.hxx>
+#include "details/export.hxx"
+#include "details/unused.hxx"
+#include "details/meta/static-assert.hxx"
 
 namespace odb
 {
@@ -387,6 +387,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_SCHEMA_CATALOG_HXX

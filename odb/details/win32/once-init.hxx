@@ -4,7 +4,7 @@
 #ifndef ODB_DETAILS_WIN32_ONCE_INIT_HXX
 #define ODB_DETAILS_WIN32_ONCE_INIT_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
 namespace odb
 {
@@ -18,6 +18,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_WIN32_ONCE_INIT_HXX

@@ -1,7 +1,7 @@
 // file      : odb/details/lock.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/lock.hxx>
+#include "lock.hxx"
 
 namespace odb
 {

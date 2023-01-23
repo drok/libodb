@@ -1,8 +1,8 @@
 // file      : odb/details/win32/tls.txx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/unique-ptr.hxx>
-#include <odb/details/win32/exceptions.hxx>
+#include "../unique-ptr.hxx"
+#include "exceptions.hxx"
 
 namespace odb
 {

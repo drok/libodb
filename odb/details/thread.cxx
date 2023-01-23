@@ -1,7 +1,7 @@
 // file      : odb/details/thread.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/thread.hxx>
+#include "thread.hxx"
 
 // We might be compiled with ODB_THREADS_NONE.
 //

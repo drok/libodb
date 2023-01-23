@@ -4,11 +4,11 @@
 #ifndef ODB_DETAILS_TRANSFER_PTR_HXX
 #define ODB_DETAILS_TRANSFER_PTR_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
 #include <memory> // std::auto_ptr, std::unique_ptr
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "config.hxx" // ODB_CXX11
 
 namespace odb
 {
@@ -68,6 +68,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_TRANSFER_PTR_HXX

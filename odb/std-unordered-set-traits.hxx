@@ -4,12 +4,12 @@
 #ifndef ODB_STD_UNORDERED_SET_TRAITS_HXX
 #define ODB_STD_UNORDERED_SET_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <utility>       // std::move
 #include <unordered_set>
 
-#include <odb/container-traits.hxx>
+#include "container-traits.hxx"
 
 namespace odb
 {
@@ -120,6 +120,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_STD_UNORDERED_SET_TRAITS_HXX

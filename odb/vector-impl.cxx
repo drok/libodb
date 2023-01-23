@@ -1,7 +1,7 @@
 // file      : odb/vector-impl.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/vector-impl.hxx>
+#include "vector-impl.hxx"
 
 #include <cstring>   // std::memcpy, std::memset
 #include <algorithm> // std::swap

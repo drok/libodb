@@ -4,12 +4,12 @@
 #ifndef ODB_NESTED_CONTAINER_HXX
 #define ODB_NESTED_CONTAINER_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef> // size_t
 
-#include <odb/forward.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "forward.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 #ifndef ODB_CXX11
 #  error nested container support is only available in C++11
@@ -204,6 +204,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_NESTED_CONTAINER_HXX

@@ -1,8 +1,8 @@
 // file      : odb/result.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/result.hxx>
-#include <odb/connection.hxx>
+#include "result.hxx"
+#include "connection.hxx"
 
 namespace odb
 {

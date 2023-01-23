@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_CONDITION_HXX
 #define ODB_DETAILS_CONDITION_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/config.hxx>
+#include "config.hxx"
 
 #ifdef ODB_THREADS_NONE
 
@@ -37,8 +37,8 @@ namespace odb
 
 #elif defined(ODB_THREADS_CXX11)
 #  include <condition_variable>
-#  include <odb/details/mutex.hxx>
-#  include <odb/details/lock.hxx>
+#  include "mutex.hxx"
+#  include "lock.hxx"
 
 namespace odb
 {
@@ -56,13 +56,13 @@ namespace odb
 }
 
 #elif defined(ODB_THREADS_POSIX)
-#include <odb/details/posix/condition.hxx>
+#include "posix/condition.hxx"
 #elif defined(ODB_THREADS_WIN32)
-#include <odb/details/win32/condition.hxx>
+#include "win32/condition.hxx"
 #else
 # error unknown threading model
 #endif
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_CONDITION_HXX

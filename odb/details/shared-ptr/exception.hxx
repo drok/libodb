@@ -4,12 +4,12 @@
 #ifndef ODB_DETAILS_SHARED_PTR_EXCEPTION_HXX
 #define ODB_DETAILS_SHARED_PTR_EXCEPTION_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
-#include <odb/exception.hxx>
+#include "../../exception.hxx"
 
-#include <odb/details/config.hxx> // ODB_NOTHROW_NOEXCEPT
-#include <odb/details/export.hxx>
+#include "../config.hxx" // ODB_NOTHROW_NOEXCEPT
+#include "../export.hxx"
 
 namespace odb
 {
@@ -26,6 +26,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_SHARED_PTR_EXCEPTION_HXX

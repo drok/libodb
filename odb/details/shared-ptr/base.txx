@@ -1,8 +1,8 @@
 // file      : odb/details/shared-ptr/base.txx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/meta/answer.hxx>
-#include <odb/details/meta/polymorphic-p.hxx>
+#include "../meta/answer.hxx"
+#include "../meta/polymorphic-p.hxx"
 
 namespace odb
 {

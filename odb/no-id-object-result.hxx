@@ -4,18 +4,18 @@
 #ifndef ODB_NO_ID_OBJECT_RESULT_HXX
 #define ODB_NO_ID_OBJECT_RESULT_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef>  // std::size_t
 #include <utility>  // std::move
 
-#include <odb/forward.hxx>
-#include <odb/traits.hxx>
-#include <odb/result.hxx>
-#include <odb/object-result.hxx>
-#include <odb/pointer-traits.hxx>
+#include "forward.hxx"
+#include "traits.hxx"
+#include "result.hxx"
+#include "object-result.hxx"
+#include "pointer-traits.hxx"
 
-#include <odb/details/config.hxx>     // ODB_CXX11
+#include "details/config.hxx"     // ODB_CXX11
 
 namespace odb
 {
@@ -175,8 +175,8 @@ namespace odb
   };
 }
 
-#include <odb/no-id-object-result.txx>
+#include "no-id-object-result.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_NO_ID_OBJECT_RESULT_HXX

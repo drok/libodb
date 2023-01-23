@@ -1,9 +1,9 @@
 // file      : odb/details/win32/init.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/win32/init.hxx>
-#include <odb/details/win32/once-init.hxx>
-#include <odb/details/win32/tls-init.hxx>
+#include "init.hxx"
+#include "once-init.hxx"
+#include "tls-init.hxx"
 
 namespace odb
 {

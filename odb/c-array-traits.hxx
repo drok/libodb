@@ -4,12 +4,12 @@
 #ifndef ODB_C_ARRAY_TRAITS_HXX
 #define ODB_C_ARRAY_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef> // std::size_t
 #include <cassert>
 
-#include <odb/container-traits.hxx>
+#include "container-traits.hxx"
 
 namespace odb
 {
@@ -98,6 +98,6 @@ namespace odb
 #endif
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_C_ARRAY_TRAITS_HXX

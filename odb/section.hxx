@@ -4,10 +4,10 @@
 #ifndef ODB_SECTION_HXX
 #define ODB_SECTION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/transaction.hxx>
-#include <odb/details/export.hxx>
+#include "transaction.hxx"
+#include "details/export.hxx"
 
 namespace odb
 {
@@ -117,6 +117,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_SECTION_HXX

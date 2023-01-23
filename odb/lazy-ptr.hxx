@@ -4,15 +4,15 @@
 #ifndef ODB_LAZY_PTR_HXX
 #define ODB_LAZY_PTR_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <memory>  // std::auto_ptr, std::shared_ptr/weak_ptr
 #include <utility> // std::move
 
-#include <odb/forward.hxx>        // odb::core, odb::database
-#include <odb/traits.hxx>
-#include <odb/lazy-ptr-impl.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "forward.hxx"        // odb::core, odb::database
+#include "traits.hxx"
+#include "lazy-ptr-impl.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 namespace odb
 {
@@ -671,11 +671,11 @@ namespace odb
   }
 }
 
-#include <odb/lazy-ptr.ixx>
-#include <odb/lazy-ptr.txx>
+#include "lazy-ptr.ixx"
+#include "lazy-ptr.txx"
 
-#include <odb/lazy-pointer-traits.hxx>
+#include "lazy-pointer-traits.hxx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_LAZY_PTR_HXX

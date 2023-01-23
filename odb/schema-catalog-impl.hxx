@@ -4,13 +4,13 @@
 #ifndef ODB_SCHEMA_CATALOG_IMPL_HXX
 #define ODB_SCHEMA_CATALOG_IMPL_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef>
 
-#include <odb/forward.hxx> // schema_version
+#include "forward.hxx" // schema_version
 
-#include <odb/details/export.hxx>
+#include "details/export.hxx"
 
 namespace odb
 {
@@ -49,6 +49,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_SCHEMA_CATALOG_IMPL_HXX

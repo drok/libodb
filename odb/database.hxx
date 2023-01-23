@@ -4,9 +4,9 @@
 #ifndef ODB_DATABASE_HXX
 #define ODB_DATABASE_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "details/config.hxx" // ODB_CXX11
 
 #include <map>
 #include <string>
@@ -19,21 +19,21 @@
 #  include <type_traits> // std::enable_if, std::is_convertible
 #endif
 
-#include <odb/traits.hxx>
-#include <odb/forward.hxx>
-#include <odb/schema-version.hxx>
-#include <odb/query.hxx>
-#include <odb/prepared-query.hxx>
-#include <odb/result.hxx>
-#include <odb/connection.hxx>
-#include <odb/exceptions.hxx>
+#include "traits.hxx"
+#include "forward.hxx"
+#include "schema-version.hxx"
+#include "query.hxx"
+#include "prepared-query.hxx"
+#include "result.hxx"
+#include "connection.hxx"
+#include "exceptions.hxx"
 
-#include <odb/details/export.hxx>
-#include <odb/details/mutex.hxx>
-#include <odb/details/c-string.hxx>
-#include <odb/details/unique-ptr.hxx>
-#include <odb/details/function-wrapper.hxx>
-#include <odb/details/meta/answer.hxx>
+#include "details/export.hxx"
+#include "details/mutex.hxx"
+#include "details/c-string.hxx"
+#include "details/unique-ptr.hxx"
+#include "details/function-wrapper.hxx"
+#include "details/meta/answer.hxx"
 
 namespace odb
 {
@@ -647,9 +647,9 @@ namespace odb
   };
 }
 
-#include <odb/database.ixx>
-#include <odb/database.txx>
+#include "database.ixx"
+#include "database.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_DATABASE_HXX

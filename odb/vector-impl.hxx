@@ -4,14 +4,14 @@
 #ifndef ODB_VECTOR_IMPL_HXX
 #define ODB_VECTOR_IMPL_HXX
 
-#include <odb/pre.hxx>
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "pre.hxx"
+#include "details/config.hxx" // ODB_CXX11
 
 #include <new>
 #include <cstddef> // std::size_t
 
-#include <odb/transaction.hxx>
-#include <odb/details/export.hxx>
+#include "transaction.hxx"
+#include "details/export.hxx"
 
 namespace odb
 {
@@ -214,8 +214,8 @@ namespace odb
   };
 }
 
-#include <odb/vector-impl.ixx>
+#include "vector-impl.ixx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_VECTOR_IMPL_HXX

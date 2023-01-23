@@ -4,14 +4,14 @@
 #ifndef ODB_LAZY_PTR_IMPL_HXX
 #define ODB_LAZY_PTR_IMPL_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <utility> // std::move
 
-#include <odb/forward.hxx> // odb::database
-#include <odb/traits.hxx>
+#include "forward.hxx" // odb::database
+#include "traits.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "details/config.hxx" // ODB_CXX11
 
 namespace odb
 {
@@ -180,9 +180,9 @@ namespace odb
   };
 }
 
-#include <odb/lazy-ptr-impl.ixx>
-#include <odb/lazy-ptr-impl.txx>
+#include "lazy-ptr-impl.ixx"
+#include "lazy-ptr-impl.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_LAZY_PTR_IMPL_HXX

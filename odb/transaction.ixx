@@ -1,7 +1,7 @@
 // file      : odb/transaction.ixx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/connection.hxx>
+#include "connection.hxx"
 
 namespace odb
 {

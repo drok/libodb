@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_SHARED_PTR_BASE_HXX
 #define ODB_DETAILS_SHARED_PTR_BASE_HXX
 
-#include <odb/pre.hxx>
+#include "../../pre.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11, ODB_NOTHROW_NOEXCEPT
+#include "../config.hxx" // ODB_CXX11, ODB_NOTHROW_NOEXCEPT
 
 #include <new>
 #include <cstddef>   // std::size_t
@@ -15,8 +15,8 @@
 #include <atomic>
 #endif
 
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr/counter-type.hxx>
+#include "../export.hxx"
+#include "counter-type.hxx"
 
 namespace odb
 {
@@ -123,9 +123,9 @@ namespace odb
   }
 }
 
-#include <odb/details/shared-ptr/base.ixx>
-#include <odb/details/shared-ptr/base.txx>
+#include "base.ixx"
+#include "base.txx"
 
-#include <odb/post.hxx>
+#include "../../post.hxx"
 
 #endif // ODB_DETAILS_SHARED_PTR_BASE_HXX

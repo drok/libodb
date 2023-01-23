@@ -4,18 +4,18 @@
 #ifndef ODB_SESSION_HXX
 #define ODB_SESSION_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <map>
 #include <typeinfo>
 
-#include <odb/traits.hxx>
-#include <odb/forward.hxx>
+#include "traits.hxx"
+#include "forward.hxx"
 
-#include <odb/details/shared-ptr.hxx>
-#include <odb/details/type-info.hxx>
+#include "details/shared-ptr.hxx"
+#include "details/type-info.hxx"
 
-#include <odb/details/export.hxx>
+#include "details/export.hxx"
 
 namespace odb
 {
@@ -209,9 +209,9 @@ namespace odb
   };
 }
 
-#include <odb/session.ixx>
-#include <odb/session.txx>
+#include "session.ixx"
+#include "session.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_SESSION_HXX

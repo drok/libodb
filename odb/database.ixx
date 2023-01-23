@@ -5,8 +5,8 @@
 #include <utility> // std::move
 #include <iterator>
 
-#include <odb/transaction.hxx>
-#include <odb/pointer-traits.hxx>
+#include "transaction.hxx"
+#include "pointer-traits.hxx"
 
 namespace odb
 {

@@ -4,9 +4,9 @@
 #ifndef ODB_DETAILS_FUNCTION_WRAPPER_HXX
 #define ODB_DETAILS_FUNCTION_WRAPPER_HXX
 
-#include <odb/pre.hxx>
+#include "../pre.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "config.hxx" // ODB_CXX11
 
 #ifdef ODB_CXX11
 #  include <functional>  // std::function
@@ -82,9 +82,9 @@ namespace odb
   }
 }
 
-#include <odb/details/function-wrapper.ixx>
-#include <odb/details/function-wrapper.txx>
+#include "function-wrapper.ixx"
+#include "function-wrapper.txx"
 
-#include <odb/post.hxx>
+#include "../post.hxx"
 
 #endif // ODB_DETAILS_FUNCTION_WRAPPER_HXX

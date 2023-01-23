@@ -4,17 +4,17 @@
 #ifndef ODB_QUERY_DYNAMIC_HXX
 #define ODB_QUERY_DYNAMIC_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <string>
 #include <vector>
 #include <cstddef> // std::size_t
 
-#include <odb/forward.hxx>
-#include <odb/query.hxx>
+#include "forward.hxx"
+#include "query.hxx"
 
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr.hxx>
+#include "details/export.hxx"
+#include "details/shared-ptr.hxx"
 
 namespace odb
 {
@@ -1059,9 +1059,9 @@ namespace odb
   };
 }
 
-#include <odb/query-dynamic.ixx>
-#include <odb/query-dynamic.txx>
+#include "query-dynamic.ixx"
+#include "query-dynamic.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_QUERY_DYNAMIC_HXX

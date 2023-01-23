@@ -4,11 +4,11 @@
 #ifndef ODB_STD_FORWARD_LIST_TRAITS_HXX
 #define ODB_STD_FORWARD_LIST_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <forward_list>
 
-#include <odb/container-traits.hxx>
+#include "container-traits.hxx"
 
 namespace odb
 {
@@ -68,6 +68,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_STD_FORWARD_LIST_TRAITS_HXX

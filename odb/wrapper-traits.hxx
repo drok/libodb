@@ -4,14 +4,14 @@
 #ifndef ODB_WRAPPER_TRAITS_HXX
 #define ODB_WRAPPER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <memory> // std::auto_ptr, std::unique_ptr, std::shared_ptr/weak_ptr
 
-#include <odb/nullable.hxx>
+#include "nullable.hxx"
 
-#include <odb/details/config.hxx>            // ODB_CXX11
-#include <odb/details/meta/remove-const.hxx>
+#include "details/config.hxx"            // ODB_CXX11
+#include "details/meta/remove-const.hxx"
 
 namespace odb
 {
@@ -271,6 +271,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_WRAPPER_TRAITS_HXX

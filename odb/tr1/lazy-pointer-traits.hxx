@@ -4,10 +4,10 @@
 #ifndef ODB_TR1_LAZY_POINTER_TRAITS_HXX
 #define ODB_TR1_LAZY_POINTER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/pointer-traits.hxx>
-#include <odb/tr1/lazy-ptr.hxx>
+#include "pointer-traits.hxx"
+#include "tr1/lazy-ptr.hxx"
 
 namespace odb
 {
@@ -56,6 +56,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_TR1_LAZY_POINTER_TRAITS_HXX

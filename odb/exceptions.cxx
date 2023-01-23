@@ -5,7 +5,7 @@
 #include <sstream>
 #include <cassert>
 
-#include <odb/exceptions.hxx>
+#include "exceptions.hxx"
 
 using namespace std;
 

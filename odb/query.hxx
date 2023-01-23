@@ -4,10 +4,10 @@
 #ifndef ODB_QUERY_HXX
 #define ODB_QUERY_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/forward.hxx>
-#include <odb/traits.hxx>
+#include "forward.hxx"
+#include "traits.hxx"
 
 namespace odb
 {
@@ -114,6 +114,6 @@ namespace odb
   }
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_QUERY_HXX

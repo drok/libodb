@@ -4,10 +4,10 @@
 #ifndef ODB_TRACER_HXX
 #define ODB_TRACER_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/forward.hxx>
-#include <odb/details/export.hxx>
+#include "forward.hxx"
+#include "details/export.hxx"
 
 namespace odb
 {
@@ -31,6 +31,6 @@ namespace odb
   };
 }
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_TRACER_HXX

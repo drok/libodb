@@ -1,8 +1,8 @@
 // file      : odb/details/shared-ptr/base.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/details/shared-ptr/base.hxx>
-#include <odb/details/shared-ptr/exception.hxx>
+#include "base.hxx"
+#include "exception.hxx"
 
 using std::size_t;
 

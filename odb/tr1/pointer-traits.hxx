@@ -4,9 +4,9 @@
 #ifndef ODB_TR1_POINTER_TRAITS_HXX
 #define ODB_TR1_POINTER_TRAITS_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
-#include <odb/details/config.hxx> // ODB_CXX11
+#include "details/config.hxx" // ODB_CXX11
 
 // In VC++ std::shared_ptr and std::tr1::shared_ptr is the same class
 // template. One is just a using-declaration for the other.
@@ -18,8 +18,8 @@
 // been included.
 //
 
-#include <odb/pointer-traits.hxx>
-#include <odb/details/meta/remove-const.hxx>
+#include "pointer-traits.hxx"
+#include "details/meta/remove-const.hxx"
 
 namespace odb
 {
@@ -116,6 +116,6 @@ namespace odb
 
 #endif // !(ODB_CXX11 && _MSC_VER)
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_TR1_POINTER_TRAITS_HXX

@@ -4,15 +4,15 @@
 #ifndef ODB_RESULT_HXX
 #define ODB_RESULT_HXX
 
-#include <odb/pre.hxx>
+#include "pre.hxx"
 
 #include <cstddef>  // std::ptrdiff_t, std::size_t
 
-#include <odb/forward.hxx> // odb::core
-#include <odb/traits.hxx>
+#include "forward.hxx" // odb::core
+#include "traits.hxx"
 
-#include <odb/details/export.hxx>
-#include <odb/details/shared-ptr.hxx>
+#include "details/export.hxx"
+#include "details/shared-ptr.hxx"
 
 namespace odb
 {
@@ -240,8 +240,8 @@ namespace odb
   }
 }
 
-#include <odb/result.txx>
+#include "result.txx"
 
-#include <odb/post.hxx>
+#include "post.hxx"
 
 #endif // ODB_RESULT_HXX

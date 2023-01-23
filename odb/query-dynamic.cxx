@@ -1,7 +1,7 @@
 // file      : odb/query-dynamic.cxx
 // license   : GNU GPL v2; see accompanying LICENSE file
 
-#include <odb/query-dynamic.hxx>
+#include "query-dynamic.hxx"
 
 using namespace std;
 
