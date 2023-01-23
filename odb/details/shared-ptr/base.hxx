@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_SHARED_PTR_BASE_HXX
 #define ODB_DETAILS_SHARED_PTR_BASE_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include "../config.hxx" // ODB_CXX11, ODB_NOTHROW_NOEXCEPT
 
@@ -126,6 +128,8 @@ namespace odb
 #include "base.ixx"
 #include "base.txx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_SHARED_PTR_BASE_HXX

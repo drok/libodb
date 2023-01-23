@@ -4,7 +4,9 @@
 #ifndef ODB_LAZY_PTR_IMPL_HXX
 #define ODB_LAZY_PTR_IMPL_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <utility> // std::move
 
@@ -183,6 +185,8 @@ namespace odb
 #include "lazy-ptr-impl.ixx"
 #include "lazy-ptr-impl.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_LAZY_PTR_IMPL_HXX

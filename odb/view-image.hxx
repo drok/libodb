@@ -4,7 +4,9 @@
 #ifndef ODB_VIEW_IMAGE_HXX
 #define ODB_VIEW_IMAGE_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "forward.hxx"
 #include "traits.hxx"
@@ -31,6 +33,8 @@ namespace odb
   struct view_object_image<R, R, DB>: object_traits_impl<R, DB>::image_type {};
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_VIEW_IMAGE_HXX

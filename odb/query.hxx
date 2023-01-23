@@ -4,7 +4,9 @@
 #ifndef ODB_QUERY_HXX
 #define ODB_QUERY_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "forward.hxx"
 #include "traits.hxx"
@@ -114,6 +116,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_QUERY_HXX

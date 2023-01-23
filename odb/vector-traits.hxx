@@ -4,7 +4,9 @@
 #ifndef ODB_VECTOR_TRAITS_HXX
 #define ODB_VECTOR_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "vector.hxx"
 #include "vector-impl.hxx"
@@ -101,6 +103,8 @@ namespace odb
 
 #include "vector-traits.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_VECTOR_TRAITS_HXX

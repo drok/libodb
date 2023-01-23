@@ -4,7 +4,9 @@
 #ifndef ODB_STATEMENT_PROCESSING_COMMON_HXX
 #define ODB_STATEMENT_PROCESSING_COMMON_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 //#define LIBODB_DEBUG_STATEMENT_PROCESSING 1
 //#define LIBODB_TRACE_STATEMENT_PROCESSING 1
@@ -209,6 +211,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_STATEMENT_PROCESSING_COMMON_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_CONTAINER_TRAITS_HXX
 #define ODB_CONTAINER_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "forward.hxx"
 #include "details/config.hxx" // ODB_CXX11
@@ -201,7 +203,9 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #include "std-map-traits.hxx"
 #include "std-set-traits.hxx"

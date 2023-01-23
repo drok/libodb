@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_WIN32_WINDOWS_HXX
 #define ODB_DETAILS_WIN32_WINDOWS_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 // Try to include <windows.h> so that it doesn't mess other things up.
 //
@@ -28,6 +30,8 @@
 #  endif
 #endif
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_WIN32_WINDOWS_HXX

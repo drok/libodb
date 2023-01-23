@@ -4,7 +4,9 @@
 #ifndef ODB_QUERY_DYNAMIC_HXX
 #define ODB_QUERY_DYNAMIC_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <string>
 #include <vector>
@@ -1062,6 +1064,8 @@ namespace odb
 #include "query-dynamic.ixx"
 #include "query-dynamic.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_QUERY_DYNAMIC_HXX

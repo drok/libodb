@@ -4,7 +4,9 @@
 #ifndef ODB_POLYMORPHIC_INFO_HXX
 #define ODB_POLYMORPHIC_INFO_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef>  // std::size_t
 #include <typeinfo>
@@ -183,6 +185,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_POLYMORPHIC_INFO_HXX

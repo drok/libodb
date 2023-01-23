@@ -4,7 +4,9 @@
 #ifndef ODB_SESSION_HXX
 #define ODB_SESSION_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <map>
 #include <typeinfo>
@@ -212,6 +214,8 @@ namespace odb
 #include "session.ixx"
 #include "session.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_SESSION_HXX

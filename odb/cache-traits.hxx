@@ -4,7 +4,9 @@
 #ifndef ODB_CACHE_TRAITS_HXX
 #define ODB_CACHE_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "traits.hxx"
 #include "forward.hxx"
@@ -177,6 +179,8 @@ namespace odb
       T, S, pointer_traits<typename object_traits<T>::pointer_type>::kind> {};
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_CACHE_TRAITS_HXX

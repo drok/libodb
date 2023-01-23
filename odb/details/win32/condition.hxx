@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_WIN32_CONDITION_HXX
 #define ODB_DETAILS_WIN32_CONDITION_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include "windows.hxx"
 
@@ -47,6 +49,8 @@ namespace odb
 
 #include "condition.ixx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_WIN32_CONDITION_HXX

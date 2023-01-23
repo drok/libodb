@@ -4,7 +4,9 @@
 #ifndef ODB_NULLABLE_HXX
 #define ODB_NULLABLE_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "forward.hxx" // odb::core
 
@@ -224,6 +226,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_NULLABLE_HXX

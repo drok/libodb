@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_WIN32_MUTEX_HXX
 #define ODB_DETAILS_WIN32_MUTEX_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include "windows.hxx"
 #include "../export.hxx"
@@ -38,6 +40,8 @@ namespace odb
 
 #include "mutex.ixx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_WIN32_MUTEX_HXX

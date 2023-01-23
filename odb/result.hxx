@@ -4,7 +4,9 @@
 #ifndef ODB_RESULT_HXX
 #define ODB_RESULT_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef>  // std::ptrdiff_t, std::size_t
 
@@ -242,6 +244,8 @@ namespace odb
 
 #include "result.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_RESULT_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_POINTER_TRAITS_HXX
 #define ODB_POINTER_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <new>     // operators new/delete
 #include <memory>  // std::auto_ptr, std::unique_ptr, std::shared_ptr/weak_ptr
@@ -400,6 +402,8 @@ namespace odb
 
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_POINTER_TRAITS_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_STD_VECTOR_TRAITS_HXX
 #define ODB_STD_VECTOR_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <vector>
 
@@ -118,6 +120,8 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_STD_VECTOR_TRAITS_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_SHARED_PTR_FWD_HXX
 #define ODB_DETAILS_SHARED_PTR_FWD_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../pre.hxx"
+#endif
 
 #include "shared-ptr/counter-type.hxx"
 
@@ -19,6 +21,8 @@ namespace odb
   }
 }
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_SHARED_PTR_FWD_HXX

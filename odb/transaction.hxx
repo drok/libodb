@@ -4,7 +4,9 @@
 #ifndef ODB_TRANSACTION_HXX
 #define ODB_TRANSACTION_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <vector>
 #include <cstddef> // std::size_t
@@ -273,6 +275,8 @@ namespace odb
 
 #include "transaction.ixx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_TRANSACTION_HXX

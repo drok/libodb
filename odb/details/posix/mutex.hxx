@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_POSIX_MUTEX_HXX
 #define ODB_DETAILS_POSIX_MUTEX_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include <pthread.h>
 
@@ -39,6 +41,8 @@ namespace odb
 
 #include "mutex.ixx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_POSIX_MUTEX_HXX

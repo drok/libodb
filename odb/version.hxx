@@ -8,7 +8,9 @@
 #ifndef ODB_VERSION_HXX
 #define ODB_VERSION_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 // Version format is AABBCCDD where
 //
@@ -37,7 +39,9 @@
 #define LIBODB_VERSION     2049973
 #define LIBODB_VERSION_STR "2.5.0-b.23"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_VERSION_HXX
 #endif // LIBODB_BUILD2

@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_POSIX_CONDITION_HXX
 #define ODB_DETAILS_POSIX_CONDITION_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include <pthread.h>
 
@@ -42,6 +44,8 @@ namespace odb
 
 #include "condition.ixx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_POSIX_CONDITION_HXX

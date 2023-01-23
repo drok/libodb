@@ -4,7 +4,9 @@
 #ifndef ODB_VECTOR_IMPL_HXX
 #define ODB_VECTOR_IMPL_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 #include "details/config.hxx" // ODB_CXX11
 
 #include <new>
@@ -216,6 +218,8 @@ namespace odb
 
 #include "vector-impl.ixx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_VECTOR_IMPL_HXX

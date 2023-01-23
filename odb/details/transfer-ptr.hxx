@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_TRANSFER_PTR_HXX
 #define ODB_DETAILS_TRANSFER_PTR_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../pre.hxx"
+#endif
 
 #include <memory> // std::auto_ptr, std::unique_ptr
 
@@ -68,6 +70,8 @@ namespace odb
   }
 }
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_TRANSFER_PTR_HXX

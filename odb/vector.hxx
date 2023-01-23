@@ -4,7 +4,9 @@
 #ifndef ODB_VECTOR_HXX
 #define ODB_VECTOR_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 #include "details/config.hxx" // ODB_CXX11
 
 #include <vector>
@@ -624,6 +626,8 @@ namespace std
 
 #include "vector-traits.hxx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_VECTOR_HXX

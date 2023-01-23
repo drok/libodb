@@ -4,7 +4,9 @@
 #ifndef ODB_STATEMENT_HXX
 #define ODB_STATEMENT_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <string>
 #include <cstddef> // std::size_t
@@ -103,6 +105,8 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_STATEMENT_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_POLYMORPHIC_MAP_HXX
 #define ODB_POLYMORPHIC_MAP_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <map>
 #include <utility>  // std::move
@@ -271,6 +273,8 @@ namespace odb
 #include "polymorphic-map.ixx"
 #include "polymorphic-map.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_POLYMORPHIC_MAP_HXX

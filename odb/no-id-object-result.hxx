@@ -4,7 +4,9 @@
 #ifndef ODB_NO_ID_OBJECT_RESULT_HXX
 #define ODB_NO_ID_OBJECT_RESULT_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef>  // std::size_t
 #include <utility>  // std::move
@@ -177,6 +179,8 @@ namespace odb
 
 #include "no-id-object-result.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_NO_ID_OBJECT_RESULT_HXX

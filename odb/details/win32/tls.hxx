@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_WIN32_TLS_HXX
 #define ODB_DETAILS_WIN32_TLS_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include <cstddef> // std::size_t
 
@@ -115,6 +117,8 @@ namespace odb
 #include "tls.ixx"
 #include "tls.txx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_WIN32_TLS_HXX

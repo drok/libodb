@@ -4,7 +4,9 @@
 #ifndef ODB_DATABASE_HXX
 #define ODB_DATABASE_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "details/config.hxx" // ODB_CXX11
 
@@ -650,6 +652,8 @@ namespace odb
 #include "database.ixx"
 #include "database.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_DATABASE_HXX

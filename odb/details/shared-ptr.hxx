@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_SHARED_PTR_HXX
 #define ODB_DETAILS_SHARED_PTR_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../pre.hxx"
+#endif
 
 #include "shared-ptr-fwd.hxx"
 #include "shared-ptr/base.hxx"
@@ -162,6 +164,8 @@ namespace odb
   }
 }
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_SHARED_PTR_HXX

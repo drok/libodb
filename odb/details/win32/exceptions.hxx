@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_WIN32_EXCEPTIONS_HXX
 #define ODB_DETAILS_WIN32_EXCEPTIONS_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include "../config.hxx" // ODB_NOTHROW_NOEXCEPT
 #include "../export.hxx"
@@ -35,6 +37,8 @@ namespace odb
   }
 }
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_WIN32_EXCEPTIONS_HXX

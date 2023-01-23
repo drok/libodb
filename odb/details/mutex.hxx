@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_MUTEX_HXX
 #define ODB_DETAILS_MUTEX_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../pre.hxx"
+#endif
 
 #include "config.hxx"
 
@@ -48,6 +50,8 @@ namespace odb
 # error unknown threading model
 #endif
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_MUTEX_HXX

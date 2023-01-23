@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_POSIX_THREAD_HXX
 #define ODB_DETAILS_POSIX_THREAD_HXX
 
-#include "../../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include <pthread.h>
 
@@ -36,6 +38,8 @@ namespace odb
 
 #include "thread.ixx"
 
-#include "../../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_POSIX_THREAD_HXX

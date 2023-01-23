@@ -4,7 +4,9 @@
 #ifndef ODB_VIEW_RESULT_HXX
 #define ODB_VIEW_RESULT_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef>  // std::ptrdiff_t, std::size_t
 #include <iterator> // iterator categories
@@ -226,6 +228,8 @@ namespace odb
 
 #include "view-result.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_VIEW_RESULT_HXX

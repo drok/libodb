@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_FUNCTION_WRAPPER_HXX
 #define ODB_DETAILS_FUNCTION_WRAPPER_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../pre.hxx"
+#endif
 
 #include "config.hxx" // ODB_CXX11
 
@@ -85,6 +87,8 @@ namespace odb
 #include "function-wrapper.ixx"
 #include "function-wrapper.txx"
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_FUNCTION_WRAPPER_HXX

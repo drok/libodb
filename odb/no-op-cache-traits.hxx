@@ -4,7 +4,9 @@
 #ifndef ODB_NO_OP_CACHE_TRAITS_HXX
 #define ODB_NO_OP_CACHE_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "traits.hxx"
 #include "forward.hxx"
@@ -231,6 +233,8 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_NO_OP_CACHE_TRAITS_HXX

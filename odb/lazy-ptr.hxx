@@ -4,7 +4,9 @@
 #ifndef ODB_LAZY_PTR_HXX
 #define ODB_LAZY_PTR_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <memory>  // std::auto_ptr, std::shared_ptr/weak_ptr
 #include <utility> // std::move
@@ -676,6 +678,8 @@ namespace odb
 
 #include "lazy-pointer-traits.hxx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_LAZY_PTR_HXX

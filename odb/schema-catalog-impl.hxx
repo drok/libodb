@@ -4,7 +4,9 @@
 #ifndef ODB_SCHEMA_CATALOG_IMPL_HXX
 #define ODB_SCHEMA_CATALOG_IMPL_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef>
 
@@ -49,6 +51,8 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_SCHEMA_CATALOG_IMPL_HXX

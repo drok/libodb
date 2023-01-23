@@ -4,7 +4,9 @@
 #ifndef ODB_SECTION_HXX
 #define ODB_SECTION_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "transaction.hxx"
 #include "details/export.hxx"
@@ -117,6 +119,8 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_SECTION_HXX

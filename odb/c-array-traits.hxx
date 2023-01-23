@@ -4,7 +4,9 @@
 #ifndef ODB_C_ARRAY_TRAITS_HXX
 #define ODB_C_ARRAY_TRAITS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef> // std::size_t
 #include <cassert>
@@ -98,6 +100,8 @@ namespace odb
 #endif
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_C_ARRAY_TRAITS_HXX

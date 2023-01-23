@@ -4,7 +4,9 @@
 #ifndef ODB_CONNECTION_HXX
 #define ODB_CONNECTION_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <map>
 #include <string>
@@ -223,6 +225,8 @@ namespace odb
 #include "connection.ixx"
 #include "connection.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_CONNECTION_HXX

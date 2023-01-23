@@ -4,7 +4,9 @@
 #ifndef ODB_CALLBACK_HXX
 #define ODB_CALLBACK_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "forward.hxx"        // odb::core
 
@@ -37,6 +39,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_CALLBACK_HXX

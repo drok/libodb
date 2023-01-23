@@ -4,7 +4,9 @@
 #ifndef ODB_SIMPLE_OBJECT_RESULT_HXX
 #define ODB_SIMPLE_OBJECT_RESULT_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef>  // std::size_t
 #include <utility>  // std::move
@@ -196,6 +198,8 @@ namespace odb
 
 #include "simple-object-result.txx"
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_SIMPLE_OBJECT_RESULT_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_EXCEPTIONS_HXX
 #define ODB_EXCEPTIONS_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <set>
 #include <string>
@@ -518,6 +520,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_EXCEPTIONS_HXX

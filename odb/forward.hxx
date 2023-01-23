@@ -4,7 +4,9 @@
 #ifndef ODB_FORWARD_HXX
 #define ODB_FORWARD_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include <cstddef> // std::size_t
 
@@ -173,6 +175,8 @@ namespace odb
   }
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_FORWARD_HXX

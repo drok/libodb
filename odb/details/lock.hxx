@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_LOCK_HXX
 #define ODB_DETAILS_LOCK_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../pre.hxx"
+#endif
 
 #include "mutex.hxx"
 
@@ -54,6 +56,8 @@ namespace odb
 }
 #endif
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_LOCK_HXX

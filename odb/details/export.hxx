@@ -4,7 +4,9 @@
 #ifndef ODB_DETAILS_EXPORT_HXX
 #define ODB_DETAILS_EXPORT_HXX
 
-#include "../pre.hxx"
+#ifdef _MSC_VER
+  #include "../../pre.hxx"
+#endif
 
 #include "config.hxx"
 
@@ -73,6 +75,8 @@
 
 #endif // LIBODB_BUILD2
 
-#include "../post.hxx"
+#ifdef _MSC_VER
+  #include "../../post.hxx"
+#endif
 
 #endif // ODB_DETAILS_EXPORT_HXX

@@ -4,7 +4,9 @@
 #ifndef ODB_TRACER_HXX
 #define ODB_TRACER_HXX
 
-#include "pre.hxx"
+#ifdef _MSC_VER
+  #include "pre.hxx"
+#endif
 
 #include "forward.hxx"
 #include "details/export.hxx"
@@ -31,6 +33,8 @@ namespace odb
   };
 }
 
-#include "post.hxx"
+#ifdef _MSC_VER
+  #include "post.hxx"
+#endif
 
 #endif // ODB_TRACER_HXX
